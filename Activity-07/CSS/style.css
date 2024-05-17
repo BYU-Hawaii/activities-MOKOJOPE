@@ -1,3 +1,6 @@
+/* Add the Google Font link in the HTML head section */
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
 body {background-color: pink;
 }
 
@@ -9,6 +12,9 @@ p {color:blue;
 }
 
 #mainheading {background-color: #F4F1BE; color: #95429C; text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 section {margin: 0 auto; width: 80%;
@@ -20,9 +26,5 @@ section {margin: 0 auto; width: 80%;
 footer {background-color: #BFF4FA;
 }
 
-.poetsen-one-regular {
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+
   
