@@ -1,4 +1,6 @@
-/* Add the Google Font link in the HTML head section */
+/* Add the Google Font link in the HTML head section*/
+/* Two ways to do: 1. @import in css 2.copy <link> part to html*/
+/* After that we need to add font-family in the style to active it */
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
 body {background-color: pink;
