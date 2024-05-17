@@ -4,19 +4,26 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
+            body {background-color: pink;}
             p {color:blue;}
+            .highlight {background-color: #BBFFC9;}
+            #mainheading {background-color: #F4F1BE; color: #95429C; text-align: center;}
+            section {margin: 0 auto; width: 80%;}
+            #sakura {width:100%; box-shadow: 5px 5px 15px black}
+            footer {background-color: #BFF4FA;}
+
         </style>
         <title>Activit-5</title>
     </head>
-    <body style="background-color: pink;">
+    <body>
         <header>
-            <h1 style="background-color: #F4F1BE; color: #95429C; text-align: center;">What is Sakura?</h1>
+            <h1 id="mainheading">What is Sakura?</h1>
         </header>
-        <section style="margin: 0 auto; width: 80%;">
-            <img style="width:100%; box-shadow: 5px 5px 15px black" src="sakura.jpg" alt="the Picture of Sakura">
-            <p>"Sakura" is the Japanese word for cherry blossom. These delicate pink flowers hold great cultural significance in Japan, symbolizing the transient nature of life and the beauty of spring. The blooming of cherry blossoms is celebrated annually with festivals, hanami (flower-viewing) parties, and various cultural events throughout Japan and in many other parts of the world.</p>
+        <section>
+            <img id="sakura" src="sakura.jpg" alt="the Picture of Sakura">
+            <p class="highlight">Sakura" is the Japanese word for cherry blossom. These delicate pink flowers hold great cultural significance in Japan, symbolizing the transient nature of life and the beauty of spring. The blooming of cherry blossoms is celebrated annually with festivals, hanami (flower-viewing) parties, and various cultural events throughout Japan and in many other parts of the world.</p>
         </section>
-        <footer style="background-color: #BFF4FA;">
+        <footer>
             <p>My Footer</p>
         </footer>
     </body>
