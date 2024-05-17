@@ -1,0 +1,28 @@
+body {background-color: pink;
+}
+
+p {color:blue;
+}
+
+/* Add a comment: This style gives a light green background to highlighted content */
+.highlight {background-color: #BBFFC9;
+}
+
+#mainheading {background-color: #F4F1BE; color: #95429C; text-align: center;
+}
+
+section {margin: 0 auto; width: 80%;
+}
+
+#sakura {width:100%; box-shadow: 5px 5px 15px black;
+}
+
+footer {background-color: #BFF4FA;
+}
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
