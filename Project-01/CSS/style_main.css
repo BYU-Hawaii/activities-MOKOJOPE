@@ -1,0 +1,49 @@
+/* Remove the bullets and style from the lists */
+h1 {
+    text-align: center;
+}
+
+.hongkongflag {
+    width:10px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+nav a {
+    padding: 8px;
+    
+}
+
+figure {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+figure img {
+    max-width: 100%; /* To ensure it's responsive and doesn't overflow its container */
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    color: #555;
+    margin-top: 10px;
+}
