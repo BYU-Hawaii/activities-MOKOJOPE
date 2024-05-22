@@ -16,6 +16,19 @@ p {
     background-color: azure;
 }
 
+ul {
+    background-color: azure;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding-left: 40px;
+    background: url("../IMAGES/peach.jpg") no-repeat left center;
+    background-size: 30px 30px;
+}
+
 body {
     background-image: url("../IMAGES/hongkongmountain.jpg");
     max-width: 100%;
