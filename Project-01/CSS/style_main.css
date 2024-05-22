@@ -15,31 +15,42 @@ body {
 
 nav ul {
     list-style-type: none;
-    padding: 0;
     margin: 0;
-}
-
-nav li {
-    display: inline;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightskyblue;
+  }
+  
+nav  li {
     float: left;
-}
+  }
+  
+nav  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav li a:hover {
+    background-color: lightblue;
+  }
 
-nav a {
-    padding: 8px;
-    
+p {
+    font-size: 20px;
 }
 
 figure {
-    margin: 20px 0;
+    margin: 20px 0px;
     padding: 10px;
-    border: 1px solid #ddd;
-    background-color: #f9f9f9;
 }
 
 figure img {
-    max-width: 100%; /* To ensure it's responsive and doesn't overflow its container */
+    max-width: 100%; 
     border-radius: 8px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    display: center;
+    box-shadow: 3px 2px 15px black;
 }
 
 figcaption {
@@ -47,5 +58,5 @@ figcaption {
     font-weight: bold;
     text-align: center;
     color: #555;
-    margin-top: 10px;
+    margin-top: 15px;
 }
