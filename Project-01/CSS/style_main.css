@@ -1,11 +1,13 @@
-/* Remove the bullets and style from the lists */
-h1 {
-    text-align: center;
+#Title {
+    display:flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .hongkongflag {
-    width:10px;
+    width:50px;
 }
+
 
 body {
     background-color: aliceblue;
