@@ -7,6 +7,9 @@ img {
     height: auto;
 }
 
+p {
+  font-size: 20px;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
