@@ -16,13 +16,13 @@ p {
     background-color: azure;
 }
 
-ul {
+#place {
     background-color: azure;
     list-style-type: none;
     padding: 0;
 }
 
-li {
+.place_list {
     margin: 10px 0;
     padding-left: 40px;
     background: url("../IMAGES/peach.jpg") no-repeat left center;
