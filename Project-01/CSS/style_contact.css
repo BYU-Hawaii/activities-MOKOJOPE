@@ -1,27 +1,27 @@
 body {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:lightskyblue;
-  }
-  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:lightskyblue;
+}
+
 nav  li {
-    float: left;
-  }
+  float: left;
+}
   
 nav  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
   
 nav li a:hover {
-    background-color: lightblue;
-  }
+  background-color: lightblue;
+}

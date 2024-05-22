@@ -7,11 +7,6 @@ body {
     background-color: aliceblue;
 }
 
-img {
-    width: 50%;
-    height: auto;
-}
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -35,23 +30,10 @@ nav  li a {
 nav li a:hover {
     background-color: lightblue;
   }
-figure {
-    margin: 20px 0;
-    padding: 10px;
-    border: 1px solid #ddd;
-    background-color: #f9f9f9;
-}
 
-figure img {
-    max-width: 100%; /* To ensure it's responsive and doesn't overflow its container */
+img {
+    width: 50%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 3px 3px 10px black;
-}
-
-figcaption {
-    font-size: 0.9em;
-    font-weight: bold;
-    text-align: center;
-    color: #555;
-    margin-top: 10px;
 }
