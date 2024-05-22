@@ -79,6 +79,7 @@ figure img {
 figcaption {
     font-size: 0.9em;
     font-weight: bold;
+    background-color: azure;
     text-align: center;
     color: #555;
     margin-top: 15px;
