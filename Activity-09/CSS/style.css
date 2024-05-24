@@ -3,7 +3,7 @@ body {
     font-family: Arial,sans-serif;
 }
 header {
-    background-color: #333;
+    background-color: #55345a;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #55345a;
     text-align: center;
   }
   
@@ -62,6 +62,17 @@ nav ul li a {
     width: 25%;
 }
 
-.float-left {
+.clearfix::after {
+    content: "";
+    clear: both; 
+    display:table;
+}
 
+footer {
+    text-align: center;
+    color:white;
+    background-color: #55345a;
+    padding: 5px;
+    position: relative;
+    width: 100%;
 }
