@@ -1,17 +1,16 @@
 .grid-container-body {
     display:grid;
     grid-template-areas: 
-        "header header header"
-        "sidebar content content"
-        "footer footer footer";
+        "header"
+        "sidebar"
+        "content"
+        "footer";
 
-    grid-template-columns: 2fr 2fr 1fr;
-    
-    gap: 10px;
-    padding: 20px;
+        gap: 10px;
+        padding: 20px;
 }
 
-.header {  
+.header {
     grid-area: header;
     background-color: #ab3ee5c6;
 }
@@ -67,5 +66,16 @@
 .item4 {
     grid-column: 2/4;
     
+}
+
+
+
+@media (min-width: 728px){
+    .grid-container-body {
+        grid-template-areas: 
+        "header header header"
+        "sidebar content content"
+        "footer footer footer";
+    }
 }
 
