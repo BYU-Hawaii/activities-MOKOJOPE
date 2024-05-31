@@ -1,3 +1,27 @@
+.grid-container-body {
+    display:grid;
+    grid-template-areas: 
+        "header header header"
+        "section main main"
+        "footer footer footer";
+}
+
+.header {
+    grid-area: ;
+}
+
+.section {
+    grid-area: ;
+}
+
+.main {
+    grid-area: ;
+}
+
+.footer {
+    grid-area: ;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
