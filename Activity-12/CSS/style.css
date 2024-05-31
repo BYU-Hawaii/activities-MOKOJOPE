@@ -2,7 +2,7 @@
     display:grid;
     grid-template-areas: 
         "header header header"
-        "section main main"
+        "sidebar content content"
         "footer footer footer";
     
         gap: 10px;
@@ -11,18 +11,22 @@
 
 .header {
     grid-area: header;
+    background-color: #ab3ee5c6;
 }
 
-.section {
+.sidebar {
     grid-area: sidebar;
+    background-color: #84b0d8f3;
 }
 
 .content {
     grid-area: content;
+    background-color: #ddde85;
 }
 
 .footer {
     grid-area: footer;
+    background-color: #3ee5e5c6;
 }
 
 .grid-container {
