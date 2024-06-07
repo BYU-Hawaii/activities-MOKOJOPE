@@ -37,13 +37,11 @@ body {
 .main {
     grid-area: main;
 
-    /* h2 {
-        font-size: 25px;
+    img {
+        float: right;
+        width: 100%;
+        height:auto;
     }
-    
-    p {
-        font-size: 17px;
-    } */
 }
 
 .footer {
