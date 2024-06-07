@@ -37,13 +37,13 @@ body {
 .main {
     grid-area: main;
 
-    h2 {
+    /* h2 {
         font-size: 25px;
     }
     
     p {
         font-size: 17px;
-    }
+    } */
 }
 
 .footer {
