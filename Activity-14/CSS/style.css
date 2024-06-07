@@ -2,6 +2,7 @@ body {
     background-color: beige;   
     margin:0;
     padding:0;
+    font-family: Arial, sans-serif;
 }
 .header {
     text-align: center;
@@ -19,6 +20,8 @@ body {
 
 .footer {
     text-align: center;
+    padding: 5px;
+    background-color: rgba(139, 247, 151, 0.505);
 }
 
 .gallery {
@@ -28,7 +31,7 @@ body {
 }
 
 .gallery img {
-    width:100%
+    width: 100%;
     height:auto;
 }
 
