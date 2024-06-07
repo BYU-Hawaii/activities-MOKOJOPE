@@ -37,11 +37,21 @@ body {
 .main {
     grid-area: main;
 
-    img {
-        float: right;
-        width: 100%;
-        height:auto;
+    h1 {
+        margin: 10px;
     }
+
+    h2 {
+        margin: 15px;
+        padding:0;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 15px;
+        padding: 0;
+    }
+
 }
 
 .footer {
@@ -52,15 +62,14 @@ body {
     background-color: rgba(139, 247, 151, 0.505);
 }
 
-.gallery {
-    display:flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
 
 .gallery img {
+    float: right;
     width: 100%;
     height:auto;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10%;
 }
 
 .nav {
@@ -107,11 +116,11 @@ body {
     }
 
     .gallery img {
-        width: calc(50% - 5px);
+        width: calc(50% - 10px);
     }
 }
  @media (min-width: 1024px) {
     .gallery img {
-        width: calc(33% - 5px);
+        width: calc(33% - 10px);
     }
 }
