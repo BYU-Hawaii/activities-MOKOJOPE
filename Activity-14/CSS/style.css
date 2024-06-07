@@ -103,7 +103,6 @@ body {
         display: inline-block;
         width:auto;
         flex: 1;
-       background-color: rgb(255, 193, 5);
     }
     .menu a {
         width:100%;
