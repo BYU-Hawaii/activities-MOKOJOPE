@@ -34,6 +34,14 @@ body {
 
     }
 }
+
+.contact {
+    grid-area: contact;
+    background-color: #f9f9f9;
+    padding:20px;
+
+}
+
 .main {
     grid-area: main;
     
@@ -59,6 +67,15 @@ body {
 .gallery img {
     width: 100%;
     height:auto;
+}
+
+.gallery_about img {
+    float: right;
+    width: 100%;
+    height:auto;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10%;
 }
 
 .nav {
@@ -107,9 +124,27 @@ body {
     .gallery img {
         width: calc(50% - 5px);
     }
+
+    .gallery_about img {
+        float: right;
+        width: 100%;
+        height:auto;
+        padding: 15px;
+        margin: auto;
+        border-radius: 10%;
+    }
 }
  @media (min-width: 1024px) {
     .gallery img {
         width: calc(33% - 5px);
+    }
+
+    .gallery_about img {
+        float: right;
+        width: 100%;
+        height:auto;
+        padding: 15px;
+        margin: auto;
+        border-radius: 10%;
     }
 }
