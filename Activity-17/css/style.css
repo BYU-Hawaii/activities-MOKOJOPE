@@ -28,6 +28,10 @@ h1, h2 {
     align-items: center;
 }
 
+.display-area #colorValue {
+    font-size: 25px;
+    font-weight: bold;
+}
 
 .palette-history {
     display: flex;
