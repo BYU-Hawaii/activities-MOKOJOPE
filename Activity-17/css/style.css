@@ -23,7 +23,11 @@ h1, h2 {
     margin: 20px 0;
     background-color: #ff0000;
     border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .palette-history {
     display: flex;
