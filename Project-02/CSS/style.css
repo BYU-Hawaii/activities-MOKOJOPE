@@ -53,6 +53,7 @@ body {
     img {
         width:100%;
         height:auto;
+        border-radius: 10%;
     }
 
 }
@@ -153,12 +154,11 @@ body {
     }
 
     .gallery_about img {
-        float: right;
-        width: 100%;
-        height:auto;
-        padding: 15px;
-        margin: auto;
-        border-radius: 10%;
+        width: 50%;
+    }
+
+    .main img {
+        width: 50%;
     }
 }
  @media (min-width: 1024px) {
@@ -171,11 +171,10 @@ body {
     }
 
     .gallery_about img {
-        float: right;
-        width: 100%;
-        height:auto;
-        padding: 15px;
-        margin: auto;
-        border-radius: 10%;
+        width: 33%;
+    }
+
+    .main img {
+        width: 33%;
     }
 }
