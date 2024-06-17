@@ -45,18 +45,18 @@ body {
 
 .main {
     grid-area: main;
-    
-    p {
+}  
+.main p {
         font-size: 17px;
     }
 
-    img {
+#catfamily {
         width:100%;
         height:auto;
         border-radius: 10%;
     }
 
-}
+
 
 .footer {
     grid-area: footer;
@@ -150,15 +150,22 @@ body {
     }  
 
     .gallery_item {
-        width:45%;
+        width:35%;
     }
 
-    /* .gallery_item img {
-        width: calc(50% - 5px);
-    } */
+    .gallery_item img {
+        width:100%;
+    }
+
+    .gallery_item figcapture {
+        width: 100%;
+    }
 
     .gallery_about img {
         width: 50%;
+    }
+    #catfamily {
+        width:50%;
     }
 
 }
@@ -181,6 +188,10 @@ body {
 
     .gallery_about img {
         width: 33%;
+    }
+
+    #catfamily {
+        width:33%;
     }
 
 }
