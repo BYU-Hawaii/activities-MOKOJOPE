@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body class="grid-container">
+        <header class="header">
+            <h1>Animal's Game Station</h1>
+        </header>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <form id="registrationForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <div class="feedback" id="usernameFeedback"></div>
+    
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <div class="feedback" id="phoneFeedback"></div>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <div class="feedback" id="emailFeedback"></div>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="feedback" id="passwordFeedback"></div>
+    
+            <button type="submit">Register</button>
+            <div class="feedback valid-feedback" id="registrationFeedback"></div>
+        </form>
+
+        <footer class="footer"> 
+            <p>Hope you enjoy the game!</p>
+            <p>&copy; 2024 Animal Matching Game. All rights reserved.</p>
+        </footer>
+    
+        <script src="Scripts/form.js"></script>
+    </body>
+</html>
