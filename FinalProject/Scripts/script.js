@@ -1,4 +1,4 @@
-const animals = ['🐶', '🐱', '🐭', '🐹', '🐰', '🐻', '🐼', '🦊'];
+const animals = ['🐶A', '🐱B', '🐭C', '🐹D', '🐰E', '🐻F', '🐼G', '🦊H'];
 let cards = [];
 let flippedCards = [];
 let matches = 0;
