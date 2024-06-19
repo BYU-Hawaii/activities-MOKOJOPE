@@ -1,11 +1,9 @@
 body {
+  display: flex;
   background-color: aliceblue;
-  text-align: center;
-  padding:auto;
-  
-  
+  justify-content: center;
+  align-items: center;
 }
-
 
 
 .feedback {
@@ -17,10 +15,3 @@ body {
   color: green;
   display: none; 
 }
-
-/* 1 width
-  2 height
-  name item1
-  input item 2
-  use grid
-  make sure the form is the grid container */

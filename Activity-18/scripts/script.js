@@ -10,6 +10,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     var emailValid = /^[^@]+@\w+(\.\w+)+\w$/.test(email); // Simple email pattern check
     var passwordValid = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/.test(password); // Password should be at least 8 characters long, contain numbers and both lowercase and uppercase letters
     var phoneValid = /^\+1 \(\d{3}\) \d{3}-\d{4}$/.test(phone); // Phone number should match the format +1 (XXX) XXX-XXXX
+    
 
     document.getElementById('usernameFeedback').style.display = usernameValid ? 'none' : 'block';
     document.getElementById('emailFeedback').style.display = emailValid ? 'none' : 'block';
@@ -32,19 +33,3 @@ document.getElementById('registrationForm').addEventListener('submit', function(
         document.getElementById('registrationFeedback').style.display = 'none';
     }
 });
-
-document.getElementById('phone').addEventListener('input', function(event) {
-    var input = event.target.value.replace(/\D/g, ''); // Remove all non-numeric characters
-    if (input.length > 0) {
-        input = '+1 (' + input;
-        if (input.length > 7) {
-            input = input.slice(0, 7) + ') ' + input.slice(7);
-        }
-        if (input.length > 12) {
-            input = input.slice(0, 12) + '-' + input.slice(12, 16);
-        }
-    }
-    event.target.value = input;
-});
-
-document.getElementById('phone').value = '+1 (___) ___-____';
