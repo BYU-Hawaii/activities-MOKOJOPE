@@ -7,6 +7,7 @@ body {
 }
 
 .grid-container {
+  display:grid;
   grid-template-areas:
     "userplace"
     "blank1"
@@ -17,6 +18,9 @@ body {
     "passplace"
     "blank4"
     "submitplace";
+    gap:10px;
+    
+    
 
 }
 
