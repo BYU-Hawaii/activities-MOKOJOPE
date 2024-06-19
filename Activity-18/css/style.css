@@ -1,8 +1,9 @@
 body {
-  /* display: flex; */
+  display: flex;
   background-color: aliceblue;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
+  height:100vh;
 }
 
 .grid-container {
@@ -79,11 +80,11 @@ body {
 @media (min-width: 1024px) {
   .grid-container {
     grid-template-areas:
-      "userplace blank1"
-      "phoneplace blank2"
-      "emailplace blank3"
-      "passplace blank4"
-      "submitplace";
+      "userplace blank1 blank1"
+      "phoneplace blank2 blank2"
+      "emailplace blank3 blank3"
+      "passplace blank4 blank4"
+      "submitplace submitplace submitplace";
   
   }
 }
