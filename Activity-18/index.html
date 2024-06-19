@@ -7,35 +7,39 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <form id="registrationForm">
+    <form id="registrationForm" class="grid-container">
         <div class="userpalce">
-        <label for="username">Username:</label><br>
+        <label for="username">Username:</label>
+        </div>
+        <div class="blank1">
         <input type="text" id="username" name="username" required>
         <div class="feedback" id="usernameFeedback"></div>
         </div>
-        <br>
-        <br>
+        
         <div class="phoneplace">
-        <label for="phone">Phone:</label><br>
+        <label for="phone">Phone:</label>
+        </div>
+        <div class="blank2">
         <input type="tel" id="phone" name="phone" placeholder="+1 (XXX) XXX-XXXX" required>
         <div class="feedback" id="phoneFeedback"></div>
         </div>
-        <br>
-        <br>
+
         <div class="emailplace">
-        <label for="email">Email:</label><br>
+        <label for="email">Email:</label>
+        </div>
+        <div class="blank3">
         <input type="email" id="email" name="email" required>
         <div class="feedback" id="emailFeedback"></div>
         </div>
-        <br>
-        <br>
+
         <div class="passplace">
-        <label for="password">Password:</label><br>
+        <label for="password">Password:</label>
+        </div>
+        <div class="blank4">
         <input type="password" id="password" name="password" required>
         <div class="feedback" id="passwordFeedback"></div>
         </div>
-        <br>
-        <br>
+
         <div class="submitplace">
         <button type="submit">Register</button>
         <div class="feedback valid-feedback" id="registrationFeedback"></div>

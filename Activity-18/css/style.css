@@ -1,8 +1,58 @@
 body {
-  display: flex;
+  /* display: flex; */
   background-color: aliceblue;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.grid-container {
+  grid-template-areas:
+    "userplace"
+    "blank1"
+    "phoneplace"
+    "blank2"
+    "emailplace"
+    "blank3"
+    "passplace"
+    "blank4"
+    "submitplace";
+
+}
+
+.userplace {
+  grid-area: userplace;
+}
+
+.phoneplace {
+  grid-area: phoneplace;  
+}
+
+.emailplace {
+  grid-area: emailplace;
+}
+
+.passplace {
+  grid-area:passplace;
+}
+
+.submitplace {
+  grid-area:submitplace;
+}
+
+.blank1 {
+  grid-area:blank1;  
+}
+
+.blank2 {
+  grid-area:blank2;
+}
+
+.blank3 {
+  grid-area:blank3;
+}
+
+.blank4 {
+  grid-area:blank4;
 }
 
 .feedback {
@@ -15,9 +65,25 @@ body {
   display: none; 
 }
 @media (min-width: 768px) {
+  .grid-container {
+    grid-template-areas:
+      "userplace blank1"
+      "phoneplace blank2"
+      "emailplace blank3"
+      "passplace blank4"
+      "submitplace";
   
+  }
 }
 
 @media (min-width: 1024px) {
-
+  .grid-container {
+    grid-template-areas:
+      "userplace blank1"
+      "phoneplace blank2"
+      "emailplace blank3"
+      "passplace blank4"
+      "submitplace";
+  
+  }
 }
