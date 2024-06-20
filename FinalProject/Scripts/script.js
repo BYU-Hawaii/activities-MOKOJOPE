@@ -1,4 +1,4 @@
-const animals = ['🐶A', '🐱B', '🐭C', '🐹D', '🐰E', '🐻F', '🐼G', '🦊H'];
+const animals = ['dog', 'cat', 'mouse', 'hamster', 'rabbit', 'bear', 'panda', 'fox'];
 let cards = [];
 let flippedCards = [];
 let matches = 0;
@@ -25,6 +25,16 @@ function initializeGame() {
         card.classList.add('card');
         card.dataset.animal = animal;
         card.dataset.index = index;
+
+        const frontFace = document.createElement('div');
+        frontFace.classList.add('front-face');
+
+        const backFace = document.createElement('div');
+        backFace.classList.add('back-face');
+        backFace.style.backgroundImage = `url(IMAGES/${animal}.jpg)`; // Assumes images are stored in 'IMAGES/' directory
+
+        card.appendChild(frontFace);
+        card.appendChild(backFace);
         card.addEventListener('click', flipCard);
         gameBoard.appendChild(card);
     });
@@ -66,3 +76,9 @@ function startGame() {
     initializeGame();
     matches = 0;
 }
+
+// Add event listener to start button
+document.getElementById('start-button').addEventListener('click', startGame);
+
+// Start the game initially
+startGame();

@@ -13,7 +13,6 @@ body {
         "footer";
 
     grid-template-columns: 1fr;
-    /* grid-template-rows: 1fr 1fr; */
     
     gap: 0;
     padding: 0;
@@ -30,17 +29,23 @@ body {
 
 .main {
     grid-area: main;
+    background-color: rgb(104, 197, 197);
 }
 
 .main p{
-    padding: 0px 50px;
+    margin: 15px 40px;
+    padding: 0;
+    text-align: center;
     }
+
+#poster {
+    border-radius: 5%;
+    width:90%
+    
+}
 
 .figure{
     grid-area: figure;
-    /* display:flex;   
-    flex-wrap: wrap;
-    gap: 10px; */
 }
 
 .figure img {
@@ -60,7 +65,7 @@ body {
  .menu li {
     padding: 5px;
     margin:0;
-    background-color: rgba(236, 215, 151, 0.214);
+    background-color: rgba(103, 237, 118, 0.505);
  }
  
  .menu a {
@@ -81,7 +86,8 @@ body {
     text-align: center;
     padding: 6px 0 ;
     margin:0;
-    background-color: rgba(139, 247, 151, 0.505);
+    background-color: rgba(103, 237, 118, 0.505);
+    width: 100%;
 }
 
 #game-container {
@@ -140,6 +146,70 @@ button:hover {
     background-color: #45a049;
 }
 
+.grid-container1 {
+    display:grid;
+    grid-template-areas:
+        "header"
+        "nav"
+        "userplace"
+        "blank1"
+        "phoneplace"
+        "blank2"
+        "emailplace"
+        "blank3"
+        "passplace"
+        "blank4"
+        "submitplace"
+        "footer";
+      gap:10px;
+  }
+  
+  .userplace {
+    grid-area: userplace;
+  }
+  
+  .phoneplace {
+    grid-area: phoneplace;  
+  }
+  
+  .emailplace {
+    grid-area: emailplace;
+  }
+  
+  .passplace {
+    grid-area:passplace;
+  }
+  
+  .submitplace {
+    grid-area:submitplace;
+  }
+  
+  .blank1 {
+    grid-area:blank1;  
+  }
+  
+  .blank2 {
+    grid-area:blank2;
+  }
+  
+  .blank3 {
+    grid-area:blank3;
+  }
+  
+  .blank4 {
+    grid-area:blank4;
+  }
+  
+  .feedback {
+    color: red;
+    display: none;
+  }
+  
+  .valid-feedback {
+    color: green;
+    display: none; 
+  }
+
 @media (min-width: 768px) {
     .menu {
         margin:0;
@@ -154,4 +224,41 @@ button:hover {
     .menu a {
         width:100%;
     }
+
+    #poster {
+        width:60%;
+    }
+    .grid-container1 {
+        grid-template-areas:
+            "header header"
+            "nav nav"
+            "userplace blank1"
+            "phoneplace blank2"
+            "emailplace blank3"
+            "passplace blank4"
+            "submitplace"
+            "footer footer";
+      
+      }
 }
+
+@media (min-width: 1024px) {
+
+    #poster {
+        width:40%;
+    }
+
+    .grid-container1 {
+      grid-template-areas:
+            "header header header"
+            "nav nav nav"
+            "userplace blank1 blank1"
+            "phoneplace blank2 blank2"
+            "emailplace blank3 blank3"
+            "passplace blank4 blank4"
+            "submitplace submitplace submitplace"
+            "footer footer footer";
+    
+    }
+
+  }
