@@ -188,39 +188,49 @@ button:hover {
   
   .userplace {
     grid-area: userplace;
+    margin: 10px;
   }
   
   .phoneplace {
     grid-area: phoneplace;  
+    margin: 10px;
   }
   
   .emailplace {
     grid-area: emailplace;
+    margin: 10px;
   }
   
   .commentplace {
     grid-area:commentplace;
+    margin: 10px;
   }
   
   .submitplace {
     grid-area:submitplace;
+    margin: 10px;
   }
   
   .blank1 {
     grid-area:blank1;  
+    margin: 10px;
   }
   
   .blank2 {
     grid-area:blank2;
+    margin: 10px;
   }
   
   .blank3 {
     grid-area:blank3;
+    margin: 10px;
   }
   
   .blank4 {
     grid-area:blank4;
+    margin: 10px;
   }
+
   textarea{
     width: 80%; /* Full width within the containing element */
     height: 150px; /* Desired height */
@@ -269,7 +279,7 @@ button:hover {
             "phoneplace blank2"
             "emailplace blank3"
             "commentplace blank4"
-            "submitplace"
+            "submitplace submitplace"
             "footer footer";
     }
 
@@ -280,6 +290,7 @@ button:hover {
             "main main"
             "figure figure"
             "footer footer";
+
     }
 
     .figure {
