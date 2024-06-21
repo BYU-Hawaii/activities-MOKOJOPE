@@ -275,6 +275,7 @@ button:hover {
     .main {
         padding-top: 3%;
         padding-bottom: 7%;
+        /* min-height: 1500px; */
     }
 
     .grid-container1 {
