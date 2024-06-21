@@ -3,6 +3,7 @@ body {
     text-align: center;
     background-color: #e2edc5;
 }
+
 .grid-container {
     display:grid;
     grid-template-areas: 
@@ -44,12 +45,20 @@ body {
     
 }
 
-.figure{
-    grid-area: figure;
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .figure img {
-    width:50%;
+    width:80%;
+    border-radius: 5%;
+}
+
+.figure figcaption {
+    width:100%;
 }
 
 .nav {
@@ -90,6 +99,10 @@ body {
     width: 100%;
 }
 
+.instruction-container li{
+    list-style-type: none;
+}
+
 #game-container {
     max-width: 600px;
     margin: 50px auto;
@@ -98,10 +111,6 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-/* h1 {
-    color: #333;
-} */
 
 #game-board {
     display: flex;
@@ -123,12 +132,21 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #333;
-    transition: background-color 0.3s ease;
+    /* transition: background-color 0.3s ease; */
 }
 
-.card.flip {
-    background-color: #4CAF50;
-    color: #fff;
+.card.flip .back-face {
+    background-size: cover;
+    background-position: center;
+    width:100px;
+    height:100px;
+}
+
+.card {
+    background-image: url(../IMAGES/MatchingAnimal.jpg);
+    background-size: cover;
+    background-position: center;
+
 }
 
 button {
@@ -151,6 +169,7 @@ button:hover {
     grid-template-areas:
         "header"
         "nav"
+        "main"
         "userplace"
         "blank1"
         "phoneplace"
@@ -161,7 +180,10 @@ button:hover {
         "blank4"
         "submitplace"
         "footer";
-      gap:10px;
+
+        gap: 0;
+        padding: 0;
+        margin: 0;
   }
   
   .userplace {
@@ -238,8 +260,27 @@ button:hover {
             "passplace blank4"
             "submitplace"
             "footer footer";
-      
-      }
+    }
+
+    .grid-container {
+        grid-template-areas: 
+            "header header"
+            "nav nav"
+            "main main"
+            "figure figure"
+            "footer footer";
+    }
+
+    .figure {
+        width:50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .figure img {
+        width:50%;
+    }
+    
 }
 
 @media (min-width: 1024px) {
@@ -259,6 +300,25 @@ button:hover {
             "submitplace submitplace submitplace"
             "footer footer footer";
     
+    }
+
+    .grid-container {
+        grid-template-areas: 
+            "header header header header"
+            "nav nav nav nav"
+            "main main main main"
+            "figure figure figure figure"
+            "footer footer footer footer";
+    }
+
+    .figure {
+        width:30%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .figure img {
+        width: 60%;
     }
 
   }
