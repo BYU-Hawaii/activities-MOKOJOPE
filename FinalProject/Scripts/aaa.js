@@ -36,3 +36,5 @@ document.getElementById('registrationForm').addEventListener('submit', function(
         document.getElementById('registrationFeedback').style.display = 'none';
     }
 });
+
+//This is without server!!!
