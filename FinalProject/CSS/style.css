@@ -221,7 +221,17 @@ button:hover {
   .blank4 {
     grid-area:blank4;
   }
-  
+  textarea{
+    width: 80%; /* Full width within the containing element */
+    height: 150px; /* Desired height */
+    padding: 10px; /* Padding for better readability */
+    font-size: 16px; /* Font size for better readability */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border styling */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    resize: vertical; /* Allow the user to resize vertically */
+  }
+
   .feedback {
     color: red;
     display: none;
