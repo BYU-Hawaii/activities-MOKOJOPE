@@ -254,6 +254,7 @@ button:hover {
         grid-template-areas:
             "header header"
             "nav nav"
+            "main main"
             "userplace blank1"
             "phoneplace blank2"
             "emailplace blank3"
@@ -291,14 +292,15 @@ button:hover {
 
     .grid-container1 {
       grid-template-areas:
-            "header header header"
-            "nav nav nav"
-            "userplace blank1 blank1"
-            "phoneplace blank2 blank2"
-            "emailplace blank3 blank3"
-            "passplace blank4 blank4"
-            "submitplace submitplace submitplace"
-            "footer footer footer";
+            "header header header header"
+            "nav nav nav nav"
+            "main main main main"
+            "userplace userplace blank1 blank1"
+            "phoneplace  phoneplace blank2 blank2"
+            "emailplace emailplace blank3 blank3"
+            "passplace passplace blank4 blank4"
+            "submitplace submitplace submitplace submitplace"
+            "footer footer footer footer";
     
     }
 
