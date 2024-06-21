@@ -176,7 +176,7 @@ button:hover {
         "blank2"
         "emailplace"
         "blank3"
-        "passplace"
+        "commentplace"
         "blank4"
         "submitplace"
         "footer";
@@ -198,8 +198,8 @@ button:hover {
     grid-area: emailplace;
   }
   
-  .passplace {
-    grid-area:passplace;
+  .commentplace {
+    grid-area:commentplace;
   }
   
   .submitplace {
@@ -258,7 +258,7 @@ button:hover {
             "userplace blank1"
             "phoneplace blank2"
             "emailplace blank3"
-            "passplace blank4"
+            "commentplace blank4"
             "submitplace"
             "footer footer";
     }
@@ -298,7 +298,7 @@ button:hover {
             "userplace userplace blank1 blank1"
             "phoneplace  phoneplace blank2 blank2"
             "emailplace emailplace blank3 blank3"
-            "passplace passplace blank4 blank4"
+            "commentplace commentplace blank4 blank4"
             "submitplace submitplace submitplace submitplace"
             "footer footer footer footer";
     
