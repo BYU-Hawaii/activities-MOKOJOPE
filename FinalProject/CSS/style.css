@@ -165,6 +165,52 @@ button:hover {
     background-color: #45a049;
 }
 
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.animal-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.animal-card {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.animal-card img {
+    width: 100%;
+    height: auto;
+}
+
+.animal-card:hover {
+    transform: scale(1.1);
+}
+
+.fact-box {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#factText {
+    font-size: 1.2em;
+    color: #333;
+}
+
 .grid-container1 {
     display:grid;
     grid-template-areas:
@@ -177,6 +223,8 @@ button:hover {
         "blank2"
         "emailplace"
         "blank3"
+        "ratingplace"
+        "list"
         "commentplace"
         "blank4"
         "submitplace"
@@ -232,6 +280,17 @@ button:hover {
     margin: 10px;
   }
 
+  .ratingplace {
+    grid-area:ratingplace;
+    margin: 10px;
+    }
+
+  .list {
+    grid-area:list;
+    margin: 10px;
+  }
+
+
   textarea{
     width: 80%; /* Full width within the containing element */
     height: 150px; /* Desired height */
@@ -286,6 +345,7 @@ button:hover {
             "userplace blank1"
             "phoneplace blank2"
             "emailplace blank3"
+            "ratingplace list"
             "commentplace blank4"
             "submitplace submitplace"
             "footer footer";
@@ -327,6 +387,7 @@ button:hover {
             "userplace userplace blank1 blank1"
             "phoneplace  phoneplace blank2 blank2"
             "emailplace emailplace blank3 blank3"
+            "ratingplace ratingplace list list"
             "commentplace commentplace blank4 blank4"
             "submitplace submitplace submitplace submitplace"
             "footer footer footer footer";
